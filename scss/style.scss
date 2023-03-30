@@ -1,0 +1,45 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/ultilities";
+@import "components/button";
+@import "layout/header";
+@import "layout/grid";
+@import "pages/home";
+
+.logo-box {
+   position: absolute;
+   top: 40px;
+   left: 40px;
+   /* padding: 40px; */
+   align-self: baseline;
+   justify-items: flex-start;
+}
+.logo {
+   height: 25px;
+}
+
+.heading-primary-main {
+   margin-bottom: 10px;
+   animation: moveInLeft 1s;
+   animation-timing-function: linear; 
+}
+.heading-primary-sub {
+   display: block;   
+   animation: moveInRight 1s;
+   animation-timing-function: linear;
+   /* animation-delay: 2s; */
+   /* animation-iteration-count: infinite; */
+}

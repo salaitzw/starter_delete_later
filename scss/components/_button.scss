@@ -1,0 +1,14 @@
+button {
+   padding: 1rem 2rem;
+   border-radius: 1.5rem;
+   border: none;
+   text-transform: uppercase;
+   color: #22755a;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+   animation: moveUp 1s;
+}
+button:active {
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   transform: translateY(-1px);
+}
